@@ -1,4 +1,8 @@
-require("dotenv").config();
+import fetch from "node-fetch";
+//require("dotenv").config();
+import dotenv from "dotenv"
+dotenv.config();
+
 const today = new Date();
 
 function giveMeBaseDate() {
@@ -30,3 +34,8 @@ function giveMeReqUrl() {
     return ('https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey='+process.env.WEATHER_API_KEY+'&pageNo=1&numOfRows=20&dataType=JSON&base_date='+date+'&base_time='+time+'&nx=55&ny=127');
 }
 
+const reqUrl = giveMeReqUrl();
+
+fetch(reqUrl).then((response) => {
+    console.log(response);
+});
