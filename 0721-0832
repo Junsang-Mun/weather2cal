@@ -1,0 +1,244 @@
+{
+  item: [
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'TMP',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '24',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'UUU',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '-0.7',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'VVV',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '-1.9',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'VEC',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '23',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'WSD',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '2.1',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'SKY',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '4',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'PTY',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '1',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'POP',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '60',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'WAV',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '0',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'PCP',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '5.0mm',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'REH',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '80',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'SNO',
+      fcstDate: '20220721',
+      fcstTime: '0900',
+      fcstValue: '적설없음',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'TMP',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '24',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'UUU',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '-0.5',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'VVV',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '-2',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'VEC',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '17',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'WSD',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '2.1',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'SKY',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '4',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'PTY',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '1',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'POP',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '60',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'WAV',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '0',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'PCP',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '5.0mm',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'REH',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '80',
+      nx: 61,
+      ny: 126
+    },
+    {
+      baseDate: '20220721',
+      baseTime: '0800',
+      category: 'SNO',
+      fcstDate: '20220721',
+      fcstTime: '1000',
+      fcstValue: '적설없음',
+      nx: 61,
+      ny: 126
+    }
+  ]
+}
