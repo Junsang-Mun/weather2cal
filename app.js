@@ -36,9 +36,14 @@ function giveMeReqUrl() {
 
 const reqUrl = giveMeReqUrl();
 
+let res = await axios.get(reqUrl);
+
+let page = res.data.response.body;
+console.log(page);
+/*
 axios.get(reqUrl).then((r) => {
     console.log(r.data);
-    console.log(r.data.dataType)
+    console.log(r.pageNo);
 }).catch((e) => {
     console.log(e);
-});
+});*/
