@@ -1,5 +1,4 @@
 import axios from "axios";
-//require("dotenv").config();
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -31,14 +30,15 @@ function giveMeBaseTime() {
 function giveMeReqUrl() {
     let time = giveMeBaseTime();
     let date = giveMeBaseDate();
-    return ('http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey='+process.env.WEATHER_API_KEY+'&pageNo=1&numOfRows=20&dataType=JSON&base_date='+date+'&base_time='+time+'&nx=55&ny=127');
+    return ('http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey='+process.env.WEATHER_API_KEY+'&pageNo=1&numOfRows=24&dataType=JSON&base_date='+date+'&base_time='+time+'&nx=61&ny=126');
 }
 
-const reqUrl = giveMeReqUrl();
+async function getWeather() {
+    const reqUrl = giveMeReqUrl();
+    let res = await axios.get(reqUrl);
+    let page = res.data.response.body.items; //.item[0].fcstValue;
 
-axios.get(reqUrl).then((r) => {
-    console.log(r.data);
-    console.log(r.data.dataType)
-}).catch((e) => {
-    console.log(e);
-});
+    console.log(page);
+}
+
+getWeather();
