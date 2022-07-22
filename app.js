@@ -6,6 +6,13 @@ const today = new Date();
 
 function fcstItem() {
     let POP, PTY, SKY, TMP, TIME;
+    /*
+        - TIME: 예보 시간
+        - TMP : 온도
+        - SKY : 하늘 상태(1, 맑음 | 3, 구름 많음 | 4, 흐림)
+        - PTY : 강수형태(0, 없음 | 1, 비 | 2, 눈비 | 3, 눈 | 4, 소나기)
+        - POP : 강수확률
+    */
 }
 
 function giveMeBaseDate() {
