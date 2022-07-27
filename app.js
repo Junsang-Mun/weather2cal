@@ -15,6 +15,11 @@ function fcstItem() {
     */
 }
 
+let base0 = new fcstItem();
+let base1 = new fcstItem();
+let base2 = new fcstItem();
+let base3 = new fcstItem();
+
 function giveMeBaseDate() {
     const year = today.getFullYear();
     const month = ('0' + (today.getMonth() + 1)).slice(-2);
@@ -48,10 +53,6 @@ async function getWeather() {
     const reqUrl = giveMeReqUrl();
     let res = await axios.get(reqUrl);
 
-    let base0 = new fcstItem();
-    let base1 = new fcstItem();
-    let base2 = new fcstItem();
-    let base3 = new fcstItem();
     let data = res.data.response.body.items;
 
     base0.TIME = data.item[0].fcstTime;
@@ -82,6 +83,11 @@ async function getWeather() {
     console.log(base1.TMP + '  ' + base1.TIME+ '  ' + base1.SKY+ '  ' + base1.PTY+ '  ' + base1.POP + '\n');
     console.log(base2.TMP + '  ' + base2.TIME+ '  ' + base2.SKY+ '  ' + base2.PTY+ '  ' + base2.POP + '\n');
     console.log(base3.TMP + '  ' + base3.TIME+ '  ' + base3.SKY+ '  ' + base3.PTY+ '  ' + base3.POP + '\n');
+    test()
 }
 
 getWeather();
+
+function test() {
+    console.log(base0.TMP + 'asdfasdfasdfasdfasdfasdf');
+}
